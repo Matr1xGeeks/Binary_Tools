@@ -1,0 +1,321 @@
+
+; This is user language file for Exeinfo Pe 0.0.3.4 by A.S.L
+
+
+; TEST VERSION LANGUAGE FILE !!!! possible crash Exeinfo or not
+
+; If Exeinfo find this file config lng will be ignored
+
+; ( ; ) = comment - Exeinfo ignore it , empty line ignored , " " - space not allowed
+; ( _name ) = internal command for exeinfo
+; ( . ) - TForm caption
+; info : You can add any Resource Item Name ( only object with ".caption" allowed )
+; ( & )  - Hot keys info example : &About = "A" Hot key , e&xit = "X" Hot key
+
+; _Charset supported : 
+; ANSI , Arabic , Baltic , chineseBig5 , Default , EastEurope , GB2312 , Greek , Hangeul , MAC , Russian , Turkish
+
+; Çeviren : HotSky.
+
+_Version=1.23
+_Charset = Turkish
+_Comment = User Language file
+
+
+; Main Form1 ----------------------------------------------------------------------
+
+_Main
+
+EP=EntryPoint:
+Foffset=File Offset:
+Linker_i=Linker Info:
+FSize=File Size:
+EP_sec=EP Section:
+FirstB=First Bytes:
+SubSys=SubSystem:
+Overlay=Overlay:
+Diag_=Tespit:
+Lame_info=Açýklama:
+
+; Hex 2 Dec calculator
+kalk=Çevirmek Ýstediðiniz Hex Deðerini Girin:
+kalk_decHex=Decimal 'den, Hexadecimal'a Çevir:
+
+; Main form Buttons
+
+But_File=Dosya :
+Plugi=&Plugin
+O_prog=&Hakkýnda
+opcje_but=&Seçenekler
+wyjscie=Çý&kýþ
+RipButton=Ri&pper
+
+; Ripper All Menu items
+
+_RipMenu
+
+exe=EXE Çýkart
+ScanonlyEXEpe=EXE Tara
+MSI_RIP=MSI Çýkart (Genel) (MSI-DOC-XLS-PPS-ADP-WPS)
+
+; GFX pictures    -   RIP Submenu :
+
+GFXRip_Menu=Resim Çýkartýcý
+PNG_rip=PNG Çýkartýcý
+JPG_rip=JPG Çýkartýcý
+BMP_rip=BMP Çýkartýcý
+GIF_rip=GIF Çýkartýcý
+AllGFX1=Tüm Resimleri Bul ve Çýkart
+
+
+
+; BIN archives    -   RIP Submenu :
+
+Arch_Rip_menu=Arþiv Çýkartýcý
+Rip_zip=Zip Arþivi
+Rip_Rararch=RAR Arþivi
+Rip_7ziparch=7Zip Arþivi
+cab=MS CAB Arþivleri
+Rip_Bzip2arch=BZip2 Arþivi
+Rip_gzipArch=GZip Arþivi
+Allinone1=Tüm Arþivleri Çýkart
+
+
+
+www_rip=HTTP Site Tarayýcý
+Rip_SWFflash=SWF Flash Bul / Çýkart
+Rip_hiddenicon=Icon Bul / Çýkart
+Rip_xml=XML Bul / Çýkart
+uniRip=Manuel Bulma / Çýkartma
+Im_hungry_forRip=Tümünü Bul / Çýkart
+
+
+;Tools Menu items
+
+ExternalRun=Extra Program Çalýþtýr
+OverlayMenu=EXE/DLL Overlay
+; submenu
+SaveOverlayifexist=Overlay Kaydet (*.ovl) (Eðer varsa)
+Trunk_overlay=Overlay'i Kes. (Temiz Exe Oluþturur.)
+Addemptyoverlaydata=Boþ Overlay Data Ekle
+Add_overlay_from_file=Dosyadan Overlay Ekle
+OverlayuncrypterXOR=Overlay XOR Çözücü
+
+OEPCorrectormenu=OEP Çözme Menüsü
+; submenu OEP
+EPcorrector1=EntryPoint Düzeltici (Delphi / C++ 6 ) - Çoklu Dosya Üretici
+EPcorrector_Del_runtime=EntryPoint Düzeltici (Delphi v.5.0) -  Çalýþma Zamaný Metodu
+EPcorr_DevC=EntryPoint Düzeltici (Dev C++ / MINGW 32 / GCC 32 Derleyici)
+;
+XoR_permutator=XoR Permutator (*.xer Dosyasý) | xor,or,shl,shr,and
+sec_stripper=Sektörleri Kaydet.
+rejestry=Kayýt Girdisi Tarayýcý
+SearchCompilerRuntime=Çalýþma Zamaný Derleyicilerini Tara
+
+eXtraTools=eXtra Tools 
+; submenu Tools
+ATunprotector=*AT4RE v1.0 protector - unprotector Tool
+sign_count=(userdb.txt) Ýçin Ýmza Sayacý.
+VBfakeUPX=UPX Packli Dosyaya Sahte Visual Basic Ýmzasý Ekle.
+ep_1000=Set EP to 1000 like PECompact ,Asprotect and scan again.
+Flashscrambler=Anti Flashback scrambler - inc EP  for UPX - and scan again.
+SavemodifiedBuffertofile=Modifiye Edilmiþ Verileri Kaydet.
+
+; File Menu Items
+
+Rename_file=Yeniden Adlandýr.
+CopyAs=Taranan Dosyanýn Yedeðini Al (*.bak)
+Executecreateprocess=Taranan Dosyayý Çalýþtýr. (CreateProcess)
+ExecuteRun=Taranan Dosyayý Çalýþtýr.
+Deletefile1=Taranan Dosyayý Sil.  (Alt+Del)
+FileProp=Windows Dosya Özellikleri Menüsünü Göster.
+Killexe=Çalýþan Ýþlemi Sonlandýr.
+multiskaner=[F2] - Klasör Tarayýcý
+Other_detect=Diðer Tarayýcýlar ve Unpackler'lar.
+Viewlogfile1=Günlük Dosyasý Menüsü
+;submenu Log
+Viewgloballogfile=Günlük Dosyasýný Göster
+Deletelogfile=Günlük Dosyasýný Sil
+;
+snapshot=Ekran Görüntüsü Oluþtur (JPG/PNG Formatý.)
+calculator1=Hesap Makinesini Çalýþtýr.
+hex2dec=Hex Deðeri Decimal'e Çevir.
+Detect_installedNETver=Kurulu .NET Framework Sürümlerini Algýla.
+
+
+; Disassemble Menu
+
+disassemblefileview=Disassemble File View :
+dASMRVA=Disassemble RVA
+dAsmVA=Disassemble VA ( 40xxxx )
+dAsm_fileoffset=Disassemble File Offset
+Searchmenu=Arama Menüsü :
+binaryHEX=Hex Byte Ara
+string816bit=String 8/16 bit ( ASCII / UNICODE )
+ViewHEXfileOffset=(HEX / ASCII) Dosya Adresi Göster
+
+; --------------------------------------------------------------------------------------------
+
+_Config
+
+.=Seçenekler
+CB_Fscan=Hýzlý Tarama
+CBox_errors=Hatalarý Atla
+Label_skin=Arayüz Seçimi:
+CheckBoxTOP=Her Zaman Üstte
+shell_integration=SaðTuþ'ta Göster
+closeEI_whenExtRun=Close ExeInfo when run ext.
+Label2logFile=Günlük Kaydet:
+Gui_Big=Büyük Form
+Label3lang=Dil Seçimi:
+; INFO : I copy "okey" value to About Form "OK" Button
+okej=Tamam
+; *** if exeinfo found exeinfope.lng file - show info on config window
+Ext_lang_file=Dil Dosyasý Yüklendi.
+
+; --------------------------------------------------------------
+
+_Multiscan
+
+multifile_scan=Taramayý Baþlat
+wait_czekaj= -> Lütfen Bekleyin ... <-
+bn_close=Kapat
+Scan_dir=Taranan Klasör:
+change_charset=*Char set
+
+; MULTISCAN MENU Right Mouse Button
+
+copy_current_l2clip=Geçerli Satýrý Kopyala.
+copyresulttoClip=Sonuçlarý Kopyala.
+savetolocalLOGfile=Sonuçlarý Günlük Dosyasýna Kaydet.
+F_unknownExe=Bilinmeyen Dosyalara Göre Filtere. (Sadece Gösterir.)
+F_hide64bitPEfiles=x64 EXE / DLL Dosyalarýný Gizle.
+Hideselectedline=Seçili Satýrý Gizle.
+Hideidenticaldiagnoselines=Ayný Tespitleri Gizle.
+setFonttoBold=Font Deðiþtir -  [ Kalýn / Normal ]
+Adv_scan_dll=>>>  advanced_scan.dll ile Tara <<<
+load_to_exein=ExeInfo PE 'ye Yükle.
+EXITtoWindows=ExeInfo PE 'yi Kapat.
+
+; ------------------------------------------------------------------
+
+_Sections
+
+.=*SEections :
+
+GroupBox1=Sektör Durumu :
+Check_exec=Yürütülebilir [E]
+Check_R=Okunabilir       [R]
+Check_W=Yazýlabilir      [W] 
+
+
+SekcjaSize=* Section size :
+
+;Sections Buttons
+
+copyTClip=Kopyala
+SecsStat=Durum
+CloseTXT2=Kapat
+
+
+;Sections Menu
+viewH=(HEX/ASCII) Göster
+viewASM=(ASM CODE) Göster
+shortjmpcount="JMP" Sayacý ( EB 01 - EB 05 )
+countNOPinstr=NOP Sayacý (Hex Deðeri : "90")
+stat00section=Sektör "00h" Deðeri istatistiði ( % )
+view_search_menu=Göster / Bul 
+Savesectiontodisk=Sektörü Diske Kaydet
+
+
+; ------------------------------------------------------------------
+
+_Viewer
+
+.=Gösterici
+
+; buttons
+cClip=Kopyala
+CloseTXT= Kapat
+
+
+; ------------------------------------------------------------------
+
+; Exe Header Info GUI
+_HeadInfo
+
+.=Bilgi
+FromHeaderVo=   Dosyada :      Genel Olanlar :
+klip=Kopyala
+CloseW=Kapat
+
+;
+;
+;
+;
+;
+
+
+; -------------------------------------------------------------------
+
+_Statistic
+
+back_to_exei=Kapat
+sections_but=Sektörler
+
+
+; ******************* added at version 0.0.3.4 *************************
+
+
+; Exe - DLL characteristic GUI
+_FileCharFlag
+
+.=Dosya Nitelikleri
+character=Nitelikler :
+GpBox_DLL=DLL Flag
+GBox1=*Hi
+GBox2=*Lo
+
+_NET_GUI
+
+.=.NET Directory
+NET_PE_Header_COM=PE Header - COM Descriptor Area
+NET_Meta_Data_Head=Meta Data Header
+NET_Streams=Meta Data Streams
+RipNET=Rip .Net Resources
+; ----  RMButton menu   -----
+ItemHexView=*Item Hex View
+CopyLineClip=*Copy ( Add ) line to clip
+CopyAlllinestoclip=*Copy all lines to clip
+
+
+_Delphi_Form
+
+.=DFM view as text
+
+FormView=Form Gösterici
+saveTXT=Txt Olarak Kaydet
+
+
+_Main
+;  BIN archives    -   RIP Submenu :
+
+Rip_Lzma=Ripper Lzma Archive ( 5D 00 ...)
+Rip_Zlib=Ripper Zlib Archives ( 78 xx ...)
+
+;Tools Menu items
+
+Zlib_unpacker=( DATA ) - Zlib unpacker v.1.2.7 - www.base2ti.com
+DForm_View=DFM - Delphi Form Scanner ( view as Text )
+
+
+;.NET Tools / Detectors - RMButton menu
+
+NETToolMenu=*.NET Tools / Detectors
+RedGateObfChk=*RedGate.ObfuscationChecker - Trial Free only *
+
+
+
+; =================================================
+; End of .lng file 
+; =================================================
